@@ -49,4 +49,12 @@ Auto Scaling Strategies:
 
 - Manual Scaling: update the size of our autoscaling group manually
 
-Dynamic Scaling: Response to changing demand (Simple/Step Scaling, Target Tracking Scaling, Scheduled Scaling), and Predictive Scaling.
+- Dynamic Scaling: Response to changing demand (Simple/Step Scaling, Target Tracking Scaling, Scheduled Scaling), and Predictive Scaling.  An example would be when a CloudWatch alarm is triggered for something like CPU > 70% then add two nodes.
+- Target tracking scaling: I want the average CPU utilization to stay around 40%
+- Scheduled Scaling: anticipate a scaling based on known usage patterns.
+- Predictive Learning: Uses Machine Learning to predict future traffic ahead of time.
+
+## Creating Auto-Scaling groups
+EC2 -> Auto Scaling Group -> Create ASG -> Create Launch Template.
+
+Launch Template will tell the ASG how to create EC2 instances within it, based on certain conditions and etc.
