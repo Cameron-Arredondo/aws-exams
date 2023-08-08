@@ -56,3 +56,5 @@ Objects are (files) have a key.  The key is the Full Path, the key is composed o
 - You can enable versioning at the bucket level which will allow you to have several different versions. This allows you to roll back easy and also protect against unintended deletes.
 - Any file that is not versioned prior to enabling versional will have the version "null"
 - suspending versioning does not delete the previous versions
+
+### S3 Replication
