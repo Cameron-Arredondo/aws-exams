@@ -140,3 +140,23 @@ Data Transfer:
 - different AZ but using private IP to chat it is 1 cent per GB.
 - Private IP is better for savings and network performance
 - use same AZ for maximum savings.
+
+### Savings Plan
+- Allows you to commit a certain $ amount per hour for 1 or 3 years
+- easiest way to setup a long-term commitments on AWs
+- EC2 savings plan will allow you to commit to usage of individual instance familes in a region
+- up to 72% discount compared to On-Demand
+- Compute Saving Plan; up to 66% discount compared to On-Demand regardless of Family, Region, size and OS, tenancy
+- Compute Options: EC2, Fargate and Lambda
+- Machine Learning Savings plan: SageMaker
+- Can set up a savings plan in AWS Cost Explorer console
+### AWS Compute Optimizer
+- reduce costs and improve performance by recommending optimal AWS resource workloads
+- helps you choose optimal configurations for your workload to lower costs.  Uses machine learning to analyze resource configurations
+## Billing & Consting Tools
+ - Estimating costs in the cloud: AWS Price Calculator
+ - Tracking costs in the cloud: Billing Dashboard, Cost Allocation tags, cost and usage reports, cost explorer
+ - Monitoring against costs plans: Billing Alarms. Budgets
+ ### AWS Pricing Calculator 
+ - Estimate the cost for your solution architecture https://calculator.aws/#/addService
+ 
