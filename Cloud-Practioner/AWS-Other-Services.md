@@ -57,3 +57,52 @@ Pros:
 - Can synchronize to: Amazon S3 (any storage class), Amazon EFS, Amazon FSx for Windows
 - Replications tasks can be scheduled hourly, daily and weekly
 - replication tasks are incremental after the first full load 
+## AWS Application Discovery Service
+- Plan migration projects by gathering information about on-prem data centers
+- dependency mapping for migrations
+### Agentless Discovery (AWS Agentless Discovery Connector)
+- VM inventory, configuration, and performance history such as CPU, memory and disk usage
+### Agent-based Discovery (AWS Application Discovery Agent)
+- System configuration, system performance, running processes, and details of the network connections between systems
+
+This data can be aggregated and view in AWS Migration Hub
+
+## AWS Application Migration Service
+- Converts your physical, virtual and cloud based servers to run natively on AWS
+- You need to install replication agent at data-center
+- supports wide range of platforms, Operating Systems, and databases
+- Minimal downtime, reduced costs
+
+## AWS Migration Evaluator
+- Helps you build a data-driven business case for migration to AWS
+- Provides a clear baseline of what your org is running today
+- Install Agentless Collector to conduct broad-based discovery
+- Take a snapshot of on-premises foot-print, server dependencies
+- analyze current state, define target state, then develop migration plan
+- This can be done by installing collector or importing data to the AWS Migration Evaluator
+## AWS Fault Injection Simulator (FIS)
+- A fully managed service for running fault injection experiments on AWS workloads
+- Based on Chaos Engineering - stressing an application by creating disruptive events
+- Helps you uncover hidden bugs and performance bottlenecks
+- Supports EC2, ECS, EKS, RDS
+- Lets you choose from pre-built templates that generate the desired disruptions
+## Step Functions
+- Build serverless visual workflow to orchestrate your lambda functions
+- Features: sequence, parallel, conditions, timeouts, error handling
+- Can integrate with EC2, ECS, SQS queues etc...
+- Possibility of implementing human approval feature
+## AWS Ground Station
+- Fully managed service that lets you control satellite communications, process data, and scale your satellite operations
+- Allows you to download satellite data to your AWS VPC within seconds
+- Use Cases: Weather Forecasting, surface imaging, communications, video broadcasts
+## Pinpoint
+- Scalable 2-way marketing communications service
+- Supports email, SMS, push, voice and in app messaging
+- Ability to segment and personalize messages with the right content to customers
+- possibility to receive replies
+- Scales to billions of messages per day
+- Use cases: run campaigns by sending marketing, bulk, transactional SMS message
+- Versus Amazon SNS or Amazon SES
+    - in SNS & SES you managed each message's audience, content, and delivery schedule
+    - in Amazon pinpoint you create message templates, delivery schedules, highly-targeted segments, and full campaigns
+    
